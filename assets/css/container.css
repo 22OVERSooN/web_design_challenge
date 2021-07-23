@@ -1,0 +1,49 @@
+
+#topContainer{
+    width: 1340px;
+    position: center;
+    overflow: hidden
+}
+
+#topLeft{
+    width: 820px;
+    float: left;
+    position:relative;
+    text-align: left;
+    padding: 20px
+}
+
+#topRight{
+    width:400px;
+    float:right;
+    position:relative;
+    text-align:left;
+    padding:20px
+}
+
+.bg{
+    position:absolute;
+    z-index: index -1;
+}
+
+.box{
+    background-color: aliceblue;
+    border-style: revert;
+    border-width:1.5px;
+    border: radius 12px;
+}
+#bgLeft{
+    float:left;
+    left:0;
+    width:860px;
+    bottom:0;
+    top:0px
+}
+
+#bgLeft{
+    float:right;
+    right:0;
+    width:440px;
+    bottom:0;
+    top:0px
+}
