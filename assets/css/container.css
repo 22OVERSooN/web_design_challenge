@@ -14,7 +14,6 @@
     width: 800px;
     float: left;
     position:relative;
-    text-align: left;
     padding: 30px;
     top:30px;
 }
@@ -23,7 +22,6 @@
     width:400px;
     float:right;
     position:relative;
-    text-align:left;
     padding:30px;
     top:30px;
 }
