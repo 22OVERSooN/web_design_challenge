@@ -28,6 +28,21 @@
     top:30px;
 }
 
+.topMiddle{
+    width:850px;
+    float:left;
+    position:relative;
+    text-align:left;
+    padding:30px;
+    top:30px;
+}
+
+.smallContainer{
+    width:400px;
+    position:relative;
+    text-align:center;
+    padding:20px;
+}
 
 #box{
     background-color: aliceblue;
@@ -71,5 +86,12 @@
 }
 #box{
     padding-top: 30px;
+}
+
+.smallContainer{
+    width:800px;
+    position:relative;
+    text-align:center;
+    padding:20px;
 }
 }
