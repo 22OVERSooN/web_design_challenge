@@ -3,7 +3,7 @@
 .topContainer{
 
     width: 1250px;
-    height:740px;
+    height:800px;
     position: center;
     overflow: hidden;
     margin: 0 auto;
@@ -63,6 +63,13 @@
     text-align: center;
 }
 
+.button{
+    width:600px;
+    position:relative;
+    float:inline-end;
+    padding:10px;
+    top:70px;
+}
 #box{
     background-color: aliceblue;
     border-style: revert;
@@ -70,12 +77,7 @@
     border-radius: 12px;
     padding-top:30px;
 }
-.pic{
-    object-fit:contain;
-    padding:5px;
-    width:150px;
-    height:150px;
-}
+
 @media (max-width:800px) {
 
 .topContainer{
