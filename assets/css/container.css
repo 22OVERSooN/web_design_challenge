@@ -25,6 +25,7 @@
     position:relative;
     text-align:left;
     padding:30px;
+    top:30px;
 }
 
 
@@ -33,18 +34,19 @@
     border-style: revert;
     border-width:1.5px;
     border-radius: 12px;
-    top:30px;
+    padding-top:30px;
 }
 .pic{
+    object-fit:contain;
     padding:5px;
-    width:100px;
-    height:100px;
+    width:150px;
+    height:150px;
 }
 @media (max-width:800px) {
 
 .topContainer{
 
-    width: 750px;
+    width: 800px;
     height:2000px;
     position: center;
     overflow: hidden;
@@ -52,7 +54,7 @@
     top:30px;
     }
 .topLeft{
-    width:650px;
+    width:700px;
     position:relative;
     float:left;
     padding:30px;
@@ -61,15 +63,13 @@
 }
 
 .topRight{
-    width:650px;
+    width:700px;
     position:relative;
     padding:30px;
-    top:30px;
+    top: 60px;
     float:left;
 }
-.pic{
-    padding:5px;
-    width:100px;
-    height:100px;
+#box{
+    padding-top: 30px;
 }
 }
